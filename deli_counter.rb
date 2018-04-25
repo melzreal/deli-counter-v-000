@@ -10,13 +10,14 @@ def line(place)
      puts "The line is currently empty."
   else 
     while count != place.length
-      whole_phrase.push("#{count+1}. #{place[count]} ")
+      phrase.push("#{count+1}. #{place[count]} ")
       count+=1 
     end
-    print phrase.join(""),whole_phrase.join("")
+    puts phrase.join("")
   end 
    
 end
+
 
 
 
